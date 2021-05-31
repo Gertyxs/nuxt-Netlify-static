@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/complain/complainList", {data:[{}],fetch:{},mutations:void 0});

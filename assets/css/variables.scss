@@ -1,0 +1,90 @@
+/*
+ * Sass 变量定义
+ * @Author: Masonz <masonzone@gmail.com>
+ * @Date: 2019-06-04 15:31:48
+ * @LastEditors: cenchengwei@foreverht.com
+ * @LastEditTime: 2021-05-27 10:25:56
+ */
+
+// 样式变量
+$color-theme: #c2a256; // 主题颜色
+$color-theme-light: #d8bc7b; // 主题颜色 浅色
+$color-theme-dark: #9c7d35; // 主题颜色 深色
+$color-bg: #f3f7f9;
+
+$color-textA: #333; // 正文颜色
+$color-textB: #666; // 字体浅色颜色
+$color-textC: #999; // 字体较浅色颜色
+
+$color-border: #f8f8f8; // 边框颜色
+$color-danger: #f56c6c; // 警告颜色
+
+// 主题色
+$color-primary: #bda361;
+$color-primary-light: #bdaa73;
+$color-primary-dark: #a88929;
+$color-group: #b15b21;
+
+// 交互色
+$color-primary-hover: $color-primary-light;
+$color-primary-active: $color-primary-dark;
+
+// 辅助色
+$color-white: #ffffff;
+$color-success: #427908;
+$color-warning: #fac258;
+$color-danger: #e22319;
+$color-error: #f14239;
+$color-tip: #ca4404;
+
+// 中性色黑
+$color-black: #191919;
+$color-light-black: #324057;
+$color-extra-light-black: #475669;
+
+// 中性色灰
+$color-gray: #999999;
+$color-light-gray: #7f7f7f;
+$color-extra-light-gray: #eff2f7;
+
+// 功能性颜色
+$color-line: #f7f7f7;
+$color-font-base: $color-black;
+$color-label: #7c7c7c;
+$color-content: #4c4c4c;
+$color-note: #888888;
+$color-disabled: #dddddd;
+$color-placeholder: #cccccc;
+$color-placeholder-dark: #666666;
+$color-background: #f4f7f9;
+
+$color-tourmaline: #4c6062;
+
+// 会员等级
+$level_1: #ccd3bb;
+$level_2: #e0a343;
+$level_3: #b15b21;
+$level_4: #891b20;
+$level_5: $color-tourmaline;
+
+// order
+$color-undone: $color-success;
+$color-done: $color-danger;
+
+// button
+$button-border: #ebedf0 !default;
+
+// box-shadow
+$box-shadow-base: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+
+// font-family
+$font-family: '-apple-system', 'system-ui', 'BlinkMacSystemFont',
+  'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+  'Arial', 'sans-serif';
+
+// font-weight
+$font-thin: 200;
+$font-light: 300;
+$font-normal: 400;
+$font-medium: 500;
+$font-semibold: 600;
