@@ -2,9 +2,6 @@ import webpack from 'webpack'
 
 export default {
   target: 'static',
-  router: {
-    mode: 'hash'
-  },
   ssr: true,
   head: {
     htmlAttrs: {
