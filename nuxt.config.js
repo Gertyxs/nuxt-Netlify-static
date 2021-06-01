@@ -3,6 +3,9 @@ import webpack from 'webpack'
 export default {
   target: 'static',
   ssr: true,
+  router: {
+    mode: 'hash'
+  },
   head: {
     htmlAttrs: {
       lang: process.env.NUXT_LOCALE,
